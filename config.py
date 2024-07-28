@@ -1,9 +1,9 @@
 from os import environ
 
 #TG Credentials
-API_ID = int(environ.get('API_ID', '5010466936'))
-API_HASH = environ.get('API_HASH', 'f8b380e48c66c9ce9c30eb8e4e3da550')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6677598838:AAFYfpf7wyEy8wcSDOAwJxvoMMmzwchoq6E')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 #Website Credentials
 API_KEY = environ.get('API_KEY', '5d6505709fb29c5d45cd44c9fe75ba6c913252b8')
